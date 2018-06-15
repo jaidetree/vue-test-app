@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  vue:
+    build: .
+    volumes:
+      - .:/code
+    ports:
+      - "8080-8989:8000"
