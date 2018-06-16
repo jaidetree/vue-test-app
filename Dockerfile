@@ -5,7 +5,7 @@ ADD ./app/yarn.lock .
 
 RUN rm -rf node_modules
 RUN yarn install
-RUN yarn global add @vue/cli-service
+RUN yarn global add @vue/cli-service @vue/cli
 
 VOLUME /code
 WORKDIR /code
